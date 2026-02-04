@@ -40,18 +40,16 @@ export default function Home() {
         borderBottom: '1px solid rgba(255,255,255,0.1)'
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-          <div style={{
-            width: '50px',
-            height: '50px',
-            borderRadius: '50%',
-            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontSize: '24px'
-          }}>
-            ⚡
-          </div>
+          <img 
+            src="/oscar-avatar.jpg" 
+            alt="Oscar"
+            style={{
+              width: '50px',
+              height: '50px',
+              borderRadius: '50%',
+              objectFit: 'cover'
+            }}
+          />
           <div>
             <h1 style={{ margin: 0, fontSize: '24px', fontWeight: 700 }}>Oscar</h1>
             <p style={{ margin: 0, fontSize: '12px', opacity: 0.7 }}>Assistant IA • Coach Digital Paris</p>
